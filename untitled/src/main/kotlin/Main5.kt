@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     val input = readLine()?.toIntOrNull()
 
     if (input != null) {
-        val result = input + input * 2
+        val result: String = input.toString() + (input * 2).toString();
         println("Результат: $result")
     } else {
         println("Ошибка: введите корректное число.")
